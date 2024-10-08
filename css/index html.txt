@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="KEYWORDS" content="Palavras chave do assunto do site  par os motores de busca">
+    <meta name="DESCRIPTION" content="Descrição que aparece nos motores de busca">
+    <title>Titulo da página - aparece no separador do browser</title>
+  </head>
+  <body>  
+  
+  
+     <table width="0px940px"> bgcolor="CornflowerBlue" align="center">
+      <tr>
+        <td>
+		>h1>&ensp;A minha página web</h1>
+        </td>
+        <td>
+      <nav>
+      <ul>
+      <li>< herf="#about">Acerca</a></li>
+	   <li>< herf="#services">Serviços</a></li>
+	    <li>< herf="#gallery">Galeria</a>
+		</li><li>< herf="#contact">Cantactos</a></li>
+		  </ul>
+        </nav>
+      </td>
+     </tr>
+    </table>
+	
+	
+		  <table width="800px"> align="center">
+        <tr>
+        <td colspan="2">
+		<section id="about">
+    <h2>Acerca</h2>
+    <p>Este texto é um Lorem ipsum, um texto de preenchimento (placeholder) que partilha algumas características com um texto escrito real, mas é aleatório ou gerado automáticamente. Ele pode ser usado para exibir o espaço a ser preenchido e os tipos de fontes. Não precisas copiar o páragrafo Lorem ipsum, existem geradores de Lorem ipsum na internet. Pesquisa no google e copia o primeiro páragrafo para completar a tua cópia.<br>
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed ipsum erat. Nunc ullamcorper posuere libero eget imperdiet. Aenean maximus pulvinar tellus quis scelerisque. Vestibulum fringilla imperdiet vestibulum. Sed vel nisi et leo pulvinar tincidunt non a elit. Morbi vehicula placerat venenatis. Sed vitae eros at risus mollis fermentum. Fusce volutpat elementum tellus quis mollis. Phasellus porttitor, augue non elementum lacinia, erat ipsum maximus eros, ut elementum metus lacus eu odio. Sed eu lectus maximus, aliquam felis eu, euismod odio.
+	</p>
+	</section>
+	</td>
+	</tr>
+	<tr bgcolor="LightSalmon">
+    <td>
+	<section id="services">
+    <h2>Serviços</h2>
+      <li>Serviço 1</li>
+      <li>Serviço 2</li>
+      <li>Serviço 4</li>
+    </ul>
+	</section>
+	</td>
+    <td>
+	<section id="gallery">
+    <h2>Galeria</h2>
+	
+    <img src="https://cdn.pixabay.com/photo/2017/06/28/10/53/board-2450236_1280.jpg"
+         alt="uma imagem de exemplo" width="350px" height="100px">
+    <br><br>
+    <a href="http://www.example.com/">Texto a servir de botão</a>
+    <br><br>
+    <a href="http://www.example.com/"><IMG SRC="https://www.google.pt/intl/pt-PT/chrome/static/images/chrome-logo.svg"></a>
+    <br><br>
+    <a href="http://www.example.com/" TARGET="_blank"><button>Texto do botão</button></a>
+     <br><hr>
+    <table border="0px">
+      <tr>
+        <td width="30%"></td>
+        <td>
+          <form action="mailto:teste@gmail.com">
+            <legend>Formulário</legend>
+            <p>Nome: <input type="text" size="30"></p>
+            <p>Email: <input type="email" size="30"></p>
+            <p>Mensagem:<br> <textarea rows="5" cols="36">Escreva a sua mensagem</textarea></p>
+            <p><input type="submit" value="enviar"></p>
+          </form>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2"></tr>
+        </tr>
+    </table>
+  </body>
